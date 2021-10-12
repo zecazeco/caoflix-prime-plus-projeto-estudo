@@ -17,3 +17,8 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+$('#mobile-button').on( "click", function() {
+    $(this).toggleClass("active");
+    $('header .menu').toggleClass("active");
+});
